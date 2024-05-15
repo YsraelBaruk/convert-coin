@@ -1,5 +1,8 @@
+import java.io.IOException;
+
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Conversor de moedas");
+    public static void main(String[] args) throws IOException, InterruptedException {
+        Menu cln = new Menu();
+        cln.menuInicial();
     }
 }
