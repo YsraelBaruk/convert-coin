@@ -25,6 +25,7 @@ public class Menu {
                     conversor.convertido();
                     //mensagem do valor convertido
                     System.out.println(msg.messageConvertido(conversor.getValueTyped(), conversor.convertido(), "USD", "EUR"));
+                    menuInicial();
                     break;
                 case 2:
                     //valor digitado
@@ -35,6 +36,7 @@ public class Menu {
                     conversor.convertido();
                     //mensagem do valor convertido
                     System.out.println(msg.messageConvertido(conversor.getValueTyped(), conversor.convertido(), "EUR", "USD"));
+                    menuInicial();
                     break;
                 case 3:
                     //valor digitado
@@ -45,6 +47,7 @@ public class Menu {
                     conversor.convertido();
                     //mensagem do valor convertido
                     System.out.println(msg.messageConvertido(conversor.getValueTyped(), conversor.convertido(), "USD", "BRL"));
+                    menuInicial();
                     break;
                 case 4:
                     //valor digitado
@@ -55,6 +58,7 @@ public class Menu {
                     conversor.convertido();
                     //mensagem do valor convertido
                     System.out.println(msg.messageConvertido(conversor.getValueTyped(), conversor.convertido(), "BRL", "USD"));
+                    menuInicial();
                     break;
                 case 5:
                     //valor digitado
@@ -65,6 +69,7 @@ public class Menu {
                     conversor.convertido();
                     //mensagem do valor convertido
                     System.out.println(msg.messageConvertido(conversor.getValueTyped(), conversor.convertido(), "USD", "RUB"));
+                    menuInicial();
                     break;
                 case 6:
                     //valor digitado
@@ -75,6 +80,7 @@ public class Menu {
                     conversor.convertido();
                     //mensagem do valor convertido
                     System.out.println(msg.messageConvertido(conversor.getValueTyped(), conversor.convertido(), "RUB", "USD"));
+                    menuInicial();
                     break;
                 case 7:
                     break;

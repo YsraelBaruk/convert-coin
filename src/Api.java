@@ -11,7 +11,7 @@ public class Api {
     public double convertCoin(String baseCode, String targetCode) throws IOException, InterruptedException {
         Key key = new Key();
         HttpClient client = HttpClient.newHttpClient();
-        URI uri = URI.create("https://v6.exchangerate-api.com/v6/%s/pair/%s/%s".formatted(key.getKeyValue(), baseCode, targetCode));
+        URI uri = URI.create("https://v6.exchangerate-api.com/v6/%s/pair/%s/%s".formatted(key.getKey(), baseCode, targetCode));
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(uri)
                 .build();
@@ -24,7 +24,7 @@ public class Api {
     public static void main(String[] args) throws IOException, InterruptedException {
         Api api = new Api();
         Key key = new Key();
-        System.out.println(key.getKeyValue());
+        //System.out.println(key.getKey());
         api.convertCoin("USD", "BRL");
         //System.out.println(coinResults);
     }
