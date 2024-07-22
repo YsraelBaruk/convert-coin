@@ -1,6 +1,6 @@
 ## Desafio Conversor de Moedas
 
-Neste desafio de programação, será feito requisições a uma API de taxas de câmbio.
+Neste desafio de programação, foi feito requisições a uma API de taxas de câmbio.
 
 ### Badge de conclusão do desafio
 <img src="./Badge-Conversor.png" alt="Calculadora de Conversão de Moedas">
